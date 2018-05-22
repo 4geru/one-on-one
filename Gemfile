@@ -59,4 +59,3 @@ gem 'tzinfo-data', platforms: [:mingw, :mswin, :x64_mingw, :jruby]
 gem 'omniauth-google-oauth2'
 # slim file
 gem 'slim-rails'
-
