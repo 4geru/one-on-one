@@ -43,6 +43,8 @@ GEM
     arel (8.0.0)
     bindex (0.5.0)
     builder (3.2.3)
+    bulma-rails (0.7.1)
+      sass (~> 3.2)
     byebug (10.0.2)
     capybara (2.18.0)
       addressable
@@ -91,9 +93,6 @@ GEM
       guard-compat (~> 1.1)
       rspec (>= 2.99.0, < 4.0)
     hashie (3.5.7)
-    hpricot (0.8.6)
-    html2slim (0.2.0)
-      hpricot
     i18n (1.0.1)
       concurrent-ruby (~> 1.0)
     jbuilder (2.7.0)
@@ -251,12 +250,12 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
+  bulma-rails
   byebug
   capybara (~> 2.13)
   coffee-rails (~> 4.2)
   dotenv-rails
   guard-rspec
-  html2slim
   jbuilder (~> 2.5)
   listen (>= 3.0.5, < 3.2)
   omniauth-google-oauth2
